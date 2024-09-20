@@ -1,0 +1,3 @@
+$numbers = $PLAIN_TEXT -replace '\D', ''
+
+Start-Process "wemeet://page/inmeeting?meeting_code=$numbers"
