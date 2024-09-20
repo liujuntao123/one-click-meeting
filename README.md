@@ -10,7 +10,7 @@
 1. 安装snip.do。
    直接在微软商店就能安装，免费。
 2. 安装“一键入会”的snip.do插件。下面方式二选一。
-   1. 直接下载插件文件，地址：。然后直接双击文件就能自动导入进去。
+   1. 直接下载插件文件，地址：https://github.com/liujuntao123/one-click-meeting/raw/refs/heads/main/one-click-meeting.pbar 。然后直接双击文件就能自动导入进去。
    2. 自己新建一个snip.do插件，然后选择创建script插件。选择powershell。粘贴下面的代码
       ```powershell
         $numbers = $PLAIN_TEXT -replace '\D', ''
